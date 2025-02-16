@@ -1,4 +1,5 @@
 1. start
+host: localhost port: 3000
 
 ```
 npm install

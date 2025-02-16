@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>결제 페이지</title>
+    <script src="https://cdn.iamport.kr/v1/iamport.js"></script>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>결제 정보 입력</h2>
+      <input type="text" id="merchant_uid" placeholder="가맹점 주문번호" />
+      <input type="text" id="product_name" placeholder="결제 대상 제품명" />
+      <input type="number" id="amount" placeholder="결제 금액" />
+      <button id="payButton">결제하기</button>
+    </div>
+  </body>
+</html>
