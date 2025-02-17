@@ -1,5 +1,6 @@
 1. start
-host: localhost port: 3000
+ host: localhost
+ port: 3000
 
 ```
 npm install
@@ -8,7 +9,10 @@ or
 npm run dev (nodemon)
 ```
 
-2. 구조
+2. API
+  - POST api/v1/payemnts
+
+3. 구조
  - public: 간단한 결제 연동 Form FE
  - src
    - app: Presentation Layer
